@@ -1,12 +1,7 @@
 """
 run below : for starting marqo and this file.
 docker rm -f marqo; #does not matter you run this or not
-*docker run --name marqo -it --privileged -p 8882:8882 --add-host host.docker.internal:host-gateway marqoai/marqo:0.0.3
-
-
-
-Now run marqo docker image
-docker run marqo
+docker run --name marqo -it --privileged -p 8882:8882 --add-host host.docker.internal:host-gateway marqoai/marqo:0.0.3
 """
 
 import marqo
